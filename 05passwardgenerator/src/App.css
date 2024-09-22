@@ -1,0 +1,7 @@
+body{
+    background-color: #000;
+    background-image:url('https://images.pexels.com/photos/2882630/pexels-photo-2882630.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load');
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('https://images.pexels.com/photos/2882630/pexels-photo-2882630.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load'); */
+}
