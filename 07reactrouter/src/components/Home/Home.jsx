@@ -1,6 +1,9 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
+// Anchor Tag(<a>) VS Link Tag(<Link>)
+// anchor tag or <a> tag is not used in React as it refreshes the whole page which is not the concept of react, that's why Link tag is used in react which is imported from react-router-dom
+
 export default function Home() {
   return (
     <div className="mx-auto w-full max-w-7xl">

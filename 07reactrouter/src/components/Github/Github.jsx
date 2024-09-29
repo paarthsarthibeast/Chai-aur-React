@@ -1,8 +1,10 @@
 import React, { useEffect, useState } from "react";
-import { useLoaderData } from "react-router-dom";
+import { useLoaderData } from "react-router-dom"; // Hook
 
 function Github() {
   const data = useLoaderData();
+
+  ("Method-1");
   // const [data, setData] = useState([]);
   // useEffect(() => {
   //   fetch("https://api.github.com/users/paarthsarthibeast")
@@ -23,6 +25,7 @@ function Github() {
 
 export default Github;
 
+("Method-2"); // Using reactrouter Loader.
 export const githubInfoLoader = async () => {
   const response = await fetch(
     "https://api.github.com/users/paarthsarthibeast"
