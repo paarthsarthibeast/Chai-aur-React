@@ -15,6 +15,9 @@ import Contact from "./components/Contact/Contact.jsx";
 import User from "./components/User/User.jsx";
 import Github, { githubInfoLoader } from "./components/Github/Github.jsx";
 
+// Routes = Routes are perhaps the most important part of a React Router app. They couple URL segments to components, data loading and data mutations. Through route nesting, complex application layouts and data dependencies become simple and declarative.
+// Loader = As the user navigates around the app, the loaders for the next matching branch of routes will be called in parallel and their data made available to components through useLoaderData.
+
 ("Method-1");
 // const router = createBrowserRouter([
 //   {
