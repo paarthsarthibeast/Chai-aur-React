@@ -31,7 +31,7 @@ function App() {
       str += "!@#$%^&*()-_+=[]{}~`";
     }
 
-    for (let i = 0; i <= length; i++) {
+    for (let i = 0; i < length; i++) {
       let char = Math.floor(Math.random() * str.length + 1);
       pass += str.charAt(char); // It is done to take Characters from String , because above line only gives the index value of the array.
     }

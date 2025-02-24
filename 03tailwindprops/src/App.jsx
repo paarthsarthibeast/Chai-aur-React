@@ -1,24 +1,26 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
-import Card from './Components/Card'
+import { useState } from "react";
+import reactLogo from "./assets/react.svg";
+import viteLogo from "/vite.svg";
+import "./App.css";
+import Card from "./Components/Card";
 
 function App() {
-  const [count, setCount] = useState(0)
+  const [count, setCount] = useState(0);
   let myobj = {
-    username : "Paarth Sarthi",
-    age: 21
-  }
-  let newArr = [1,2,3]
+    username: "Paarth Sarthi",
+    age: 21,
+  };
+  let newArr = [1, 2, 3];
 
   return (
     <>
-    <h1 className=" bg-green-400 text-black p-4 rounded-xl mb-4">Tailwind CSS Test</h1>
-    <Card username = "ChaiaurCode" btnText = "Click Me"/> 
-    <Card username = "Paarth Sarthi"/>
-    
-    {/* <figure class="md:flex bg-slate-100 rounded-xl p-8 md:p-0 dark:bg-slate-800">
+      <h1 className=" bg-green-400 text-black p-4 rounded-xl mb-4">
+        Tailwind CSS Test
+      </h1>
+      <Card username="ChaiaurCode" btnText="Click Me" />
+      <Card username="Paarth Sarthi" />
+
+      {/* <figure class="md:flex bg-slate-100 rounded-xl p-8 md:p-0 dark:bg-slate-800">
   <img class="w-24 h-24 md:w-48 md:h-auto md:rounded-none rounded-full mx-auto" src="https://images.pexels.com/photos/39855/lamborghini-brno-racing-car-automobiles-39855.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" width="384" height="512"/>
   <div class="pt-6 md:p-8 text-center md:text-left space-y-4">
     <blockquote>
@@ -38,9 +40,8 @@ function App() {
     </figcaption>
   </div>
 </figure> */}
-
     </>
-  )
+  );
 }
 
-export default App
+export default App;
